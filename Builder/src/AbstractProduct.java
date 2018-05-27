@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthEditorPaneUI;
-
 abstract public class AbstractProduct {
     public void sharedMethod()
     {
@@ -7,4 +5,8 @@ abstract public class AbstractProduct {
     }
 
     abstract public void individualMethod();
+
+    public void setPart(String str){
+        System.out.println("本产品关键零部件制造完成："+str);
+    }
 }
